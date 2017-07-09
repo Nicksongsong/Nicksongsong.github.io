@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+		<link rel="stylesheet" href="zxin.css"/>
+      <link rel="stylesheet" href="zxin-detail.css"/>
+    <title></title>
+</head>
+<body>
+	<!--第一部分：导航-->
+    <header id="headertop">
+        <div>
+            <ul class="head-left">
+                <li>
+                    <a href="#">中兴校园全</a>
+                    <b></b>
+                </li>
+                <li>
+                    <a href="#">帮助中心</a>
+					<b></b>
+                </li>
+                <li>
+                    <a href="#">年无休热线:400-880-9999</a>
+                </li>
+            </ul>
+            <ul class="head-right">
+                <li>
+                    <a href="#">登录</a>
+					<b></b>
+                </li>
+                <li>
+                    <a href="#">免费注册</a>
+					<b></b>
+                </li>
+                <li>
+                    <a href="#">我的订单</a>
+					<b></b>
+                </li>
+                <li>
+                    <a href="#">手机版</a>
+                </li>
+            </ul>
+            </div>
+    </header>
+    <!--第二部分：搜索框-->
+    <div id="search">
+        <a href="#"><img src="img/zx-logo.png" alt=""/></a>
+        <div>
+            <input type="text" placeholder="搜索您需要的商品"/><button></button>
+        </div>
+        <ul>
+            <li class="shopping-cart"><a href="#">购物车</a></li>
+            <li>购物车中还没有商品,快快选购吧!</li>
+        </ul>
+    </div>
+    <!--第三部分：全部商品分类即主导航-->
+    <nav id="nav">
+        <ul>
+            <li class="total-classify">全部商品分类</li>
+            <li><a href="#">首页</a></li>
+            <li class="new">
+                <a href="#">Blade V8</a>
+                <b></b>
+            </li>
+            <li class="hot">
+                <a href="#">天机7 MAX</a>
+                <b></b>
+            </li>
+            <li class="hot">
+                <a href="#">天机7</a>
+                <b></b>
+            </li>
+            <li>
+                <a href="#">Blade系列</a>
+            </li>
+            <li><a href="#">ZTE精品系列</a></li>
+            <li><a href="#">中兴社区</a></li>
+            <li class="horn"></li>  <!-- 此处轮播的文字未做-->
+
+        </ul>
+
+    </nav>
+    <!-- 第四部分-悬浮的下拉列表-->
+    <div id="detail-clarify">
+
+    </div>
+    <!-- 第五部分-详情页标题：首页 手机 Blade系列 ZTE中兴 Blade V8 绝代双“焦”-仿生双摄+3D拍照 炫闪银/全网通/4GB+64GB-->
+    <div id="bread-crumb">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li>/</li>
+            <li><a href="#">手机</a></li>
+            <li>/</li>
+            <li><a href="#">Blade系列</a></li>
+            <li>/</li>
+            <li>ZTE中兴 Blade V8绝代双"焦"-仿生双摄+3D拍照 炫闪银/全网通/4GB+64GB</li>
+        </ul>
+    </div>
+    <!-- 第六部分-->
+    <div id="goods_information">
+        <!-- 6.1左边-->
+        <div class="phone_picture">
+            <div id="mediumDiv">
+                <img id="mImg" src="img-detail/goods_information_m1.jpg" alt=""/>
+                <div id="mask"></div><!-- mask 为小遮罩层-->
+                <div id="superMask"></div><!-- 大遮罩层-->
+            </div>
+            <div id="largeDiv"></div><!-- 显示大的图片：设置为背景图片-->
+            <div>
+                <i></i>
+                <ul>
+                    <li><img src="img-detail/goods_information_s1.jpg" alt=""/></li>
+                    <li><img src="img-detail/goods_information_s2.jpg" alt=""/></li>
+                    <li><img src="img-detail/goods_information_s3.jpg" alt=""/></li>
+                    <li><img src="img-detail/goods_information_s4.jpg" alt=""/></li>
+                    <li><img src="img-detail/goods_information_s5.jpg" alt=""/></li>
+                </ul>
+                <i></i>
+            </div>
+        </div>
+        
+        <!-- 6.2右边-->
+        <div id="goods_information_right">
+            <div>
+                <h2>ZTE中兴 Blade V8 绝代双“焦”-仿生双摄+3D拍照</h2>
+                <h3>炫闪银/全网通/4GB+64GB</h3>
+                <p>绝代双“焦”3D拍照、仿生双摄手机，1300万柔光自拍、前置指纹、智慧语音、4G大运存+64G大内存！</p>
+                <b>&yen;1449.0</b>
+                <s>&yen;1499.0</s>
+            </div>
+            <div>
+                <div>
+                    <b>促销详情:</b>
+                    <i>减价</i>
+                    <i>限时优惠 距结束 :</i>
+                    <span id="time">
+                        <span class="day_show"></span><b>天</b>
+                        <span class="hour_show"></span><b>时</b>
+                        <span class="minute_show"></span><b>分</b>
+                        <span class="second_show"></span><b>秒</b>
+                    </span>
+                </div>
+                <div>
+                    <b>颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色:</b>
+                    <a>暗夜色</a>
+                    <a>炫闪银</a>
+                </div>
+                <div>
+                    <b>制&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;式:</b>
+                    <b class="choose">全网通</b>
+                </div>
+                <div>
+                    <b>版&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本:</b>
+                    <b class="choose">4G+64G</b>
+                </div>
+            </div>
+            <div>
+                <input type="button" value="加入购物车"/>
+                <input type="button" value="立即购买"/>
+                <span>
+                    <i>扫描购买</i>
+                    <b></b>
+                </span>
+                <a href="#">喜欢(235)</a>
+            </div>
+        </div>
+    </div>
+    <!-- 第七部分-->
+    <div id="goods_introduction">
+        <!-- 7.1左边-->
+        <div class="hot_sell">
+            <p>热销商品排行</p>
+            <dl>
+                <dt><a href="#"><img src="img-detail/hot_sell_1.jpg" alt=""/></a></dt>
+                <dd><a href="#">ZTE中兴 Blade A2 Plus 全网通</a></dd>
+                <dd>&yen;899.0</dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="img-detail/hot_sell_2.jpg" alt=""/></a></dt>
+                <dd><a href="#">ZTE中兴 Blade A2 国民指纹手机 双卡双待</a></dd>
+                <dd>&yen;699.0</dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="img-detail/hot_sell_2.jpg" alt=""/></a></dt>
+                <dd>ZTE中兴 Blade A2 国民指纹手机 双卡双待</dd>
+                <dd>&yen;799.0</dd>
+            </dl>
+
+        </div>
+        <!-- 7.1右边-->
+        <div class="parameter">
+            <ul>
+                <li><a href="#" class="active">产品介绍</a></li>
+                <li><i></i></li>
+                <li><a href="#">规格参数</a></li>
+                <li><i></i></li>
+                <li><a href="#">用户评价(59)</a></li>
+                <li><i></i></li>
+                <li><a href="#">产品咨询</a></li>
+            </ul>
+            <div class="goods active">
+                <ul>
+                    <li><img src="img-detail/b7dca424cace.jpg" alt=""/></li>
+                    <li><img src="img-detail/ac4adb270c60.jpg" alt=""/></li>
+                    <li><img src="img-detail/d68f9ebfc30a.jpg" alt=""/></li>
+                    <li><img src="img-detail/5e915c76714a.jpg" alt=""/></li>
+                    <li><img src="img-detail/b7fd93c4e511.jpg" alt=""/></li>
+                    <li><img src="img-detail/bb262af3f75b.jpg" alt=""/></li>
+                    <li><img src="img-detail/5e82b93e2cc5.jpg" alt=""/></li>
+                    <li><img src="img-detail/677541c8fd18.jpg" alt=""/></li>
+                    <li><img src="img-detail/9d0f5cb3cf42.jpg" alt=""/></li>
+                    <li><img src="img-detail/0de6294df3a6.jpg" alt=""/></li>
+                    <li><img src="img-detail/994ffff292eb.jpg" alt=""/></li>
+                    <li><img src="img-detail/55ff4bb59a20.jpg" alt=""/></li>
+                    <li><img src="img-detail/52393536e2a1.jpg" alt=""/></li>
+                    <li><img src="img-detail/bfe482f33634.jpg" alt=""/></li>
+                </ul>
+            </div>
+            <div class="specification">
+                <ul>
+                    <li>主体</li>
+                    <li><b>商品名称:</b>&nbsp;&nbsp;&nbsp;&nbsp;ZTE中兴 Blade V8 绝代双“焦”-仿生双摄+3D拍照</li>
+                    <li><b>商品品牌:</b>&nbsp;&nbsp;&nbsp;&nbsp;ZTE中兴</li>
+                    <li><b>商品规格:</b>&nbsp;&nbsp;&nbsp;&nbsp;炫闪银/全网通/4GB+64GB</li>
+                    <li><b>商品货号:</b>&nbsp;&nbsp;&nbsp;&nbsp;6902176016455</li>
+                    <li><b>重量:</b>&nbsp;&nbsp;&nbsp;&nbsp;0.000</li>
+                    <li><b>单位:</b>&nbsp;&nbsp;&nbsp;&nbsp;件</li>
+                </ul>
+                <ul>
+                    <li>CPU及操作系统</li>
+                    <li><b>CPU型号:</b>&nbsp;&nbsp;&nbsp;&nbsp;骁龙435</li>
+                    <li><b>CPU频率:</b>&nbsp;&nbsp;&nbsp;&nbsp;A53 1.4GHz x 4 + A53 1.0GHz X4</li>
+                    <li><b>CPU核数:</b>&nbsp;&nbsp;&nbsp;&nbsp;8</li>
+                    <li><b>操作系统:</b>&nbsp;&nbsp;&nbsp;&nbsp;Mifavor 4.2基于ANDROID 7.0）</li>
+                </ul>
+                <ul>
+                    <li>网络</li>
+                    <li><b>4G网络制式:</b>&nbsp;&nbsp;&nbsp;&nbsp;移动（TD-LTE)；4G：联通(FDD-LTE)；4G：电信(FDD-LTE)；4G：联通(TD-LTE)</li>
+                    <li><b>3G网络制式:</b>&nbsp;&nbsp;&nbsp;&nbsp;移动(TD-SCDMA)；3G：联通(WCDMA)；3G：电信(CDMA2000)；</li>
+                    <li><b>2G网络制式:</b>&nbsp;&nbsp;&nbsp;&nbsp;移动联通(GSM)+电信(CDMA)</li>
+                </ul>
+                <ul>
+                    <li>存储</li>
+                    <li><b>运行内存(RAM):</b>&nbsp;&nbsp;&nbsp;&nbsp;4GB</li>
+                    <li><b>机身内存(ROM):</b>&nbsp;&nbsp;&nbsp;&nbsp;64GB</li>
+                    <li><b>存储卡类型:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持MicroSD（TF）</li>
+                    <li><b>最大支持扩展:</b>&nbsp;&nbsp;&nbsp;&nbsp;128GB</li>
+                </ul>
+                <ul>
+                    <li>显示</li>
+                    <li><b>屏幕尺寸:</b>&nbsp;&nbsp;&nbsp;&nbsp;5.2</li>
+                    <li><b>屏幕色彩:</b>&nbsp;&nbsp;&nbsp;&nbsp;1600万</li>
+                    <li><b>屏幕材质:</b>&nbsp;&nbsp;&nbsp;&nbsp;IPS</li>
+                    <li><b>分辨率:</b>&nbsp;&nbsp;&nbsp;&nbsp;1920×1080（FHD）</li>
+                    <li><b>触摸屏:</b>&nbsp;&nbsp;&nbsp;&nbsp;电容屏</li>
+                </ul>
+                <ul>
+                    <li>感应器</li>
+                    <li><b>GPS模块:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>重力感应:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>光线感应:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>距离感应:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>电子罗盘:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>陀螺仪:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                </ul>
+                <ul>
+                    <li>摄像功能</li>
+                    <li><b>主摄像头:</b>&nbsp;&nbsp;&nbsp;&nbsp;1300+200</li>
+                    <li><b>副摄像头:</b>&nbsp;&nbsp;&nbsp;&nbsp;前置1300万</li>
+                    <li><b>闪光灯:</b>&nbsp;&nbsp;&nbsp;&nbsp;LED补光灯</li>
+                    <li><b>其他:</b>&nbsp;&nbsp;&nbsp;&nbsp;美颜丨前摄全景</li>
+                </ul>
+                <ul>
+                    <li>传输功能</li>
+                    <li><b>WIFI:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>蓝牙:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>WIFI热点:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>OTG:</b>&nbsp;&nbsp;&nbsp;&nbsp;支持</li>
+                    <li><b>NFC(近场通讯):</b>&nbsp;&nbsp;&nbsp;&nbsp;不支持</li>
+                </ul>
+                <ul>
+                    <li>其他</li>
+                    <li><b>SIM卡尺寸:</b>&nbsp;&nbsp;&nbsp;&nbsp;Nano SIM</li>
+                    <li><b>电池类型:</b>&nbsp;&nbsp;&nbsp;&nbsp;聚合物</li>
+                    <li><b>电池容量（mAh）:</b>&nbsp;&nbsp;&nbsp;&nbsp;2730</li>
+                    <li><b>数据线:</b>&nbsp;&nbsp;&nbsp;&nbsp;micro usb</li>
+                    <li><b>耳机接口:</b>&nbsp;&nbsp;&nbsp;&nbsp;3.5mm</li>
+                    <li><b>机身尺寸(mm):</b></li>
+                    <li><b>机身材质:</b>&nbsp;&nbsp;&nbsp;&nbsp;金属边框+三段式金属后盖</li>
+                </ul>
+            </div>
+            <div class="evaluation">
+                <div>
+                    <div>
+                        <b>98</b>
+                        <span>%</span>
+                        <h6>好评度</h6>
+                        <p>共59个评价</p>
+                    </div>
+                    <div class="bar_box">
+                        <dl>
+                            <dt>好</dt>
+                            <dd><p></p></dd>
+                            <dd>98%</dd>
+                        </dl>
+                        <dl>
+                            <dt>中</dt>
+                            <dd><p></p></dd>
+                            <dd>2%</dd>
+                        </dl>
+                        <dl>
+                            <dt>差</dt>
+                            <dd><p></p></dd>
+                            <dd>0%</dd>
+                        </dl>
+                    </div>
+                </div>
+                <ul class="evaluation_summary">
+                    <li class="evaluation_summary_active"><a href="#">全部(59)</a></li>
+                    <li><a href="#">好评(58)</a></li>
+                    <li><a href="#">中评(1)&nbsp;&nbsp;</a></li>
+                    <li><a href="#">差评(0)&nbsp;&nbsp;</a></li>
+                    <li><a href="#">晒图(9)&nbsp;&nbsp;</a></li>
+                </ul>
+                <!-- 全部-->
+                <ul class="evaluation_all">
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>1****0</span>
+                            <h6>2017-05-18 18:33</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>轻巧、非常流畅、拍照效果非常好。赞</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_2.jpg" alt=""/>
+                            <span>w****9</span>
+                            <h6>2017-05-08 12:33</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>非常满意！</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_3.jpg" alt=""/>
+                            <span>q****1</span>
+                            <h6>2017-05-04 22:42</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>手机还不错 不过为什么连个耳机都没有啊(｡･ˇ_ˇ･｡:)</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>1****8</span>
+                            <h6>2017-04-18 15:55</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>比我以前用的ZTE好多了</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>188****5276</span>
+                            <h6>2017-04-09 00:18</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>国产支持手机还不错运行反应都还快。可以送保护膜手机套就好了。</p></div>
+                    </li>
+                    <!--第 6-10个评价-->
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>157****1550</span>
+                            <h6>2017-03-30 18:43</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>宝贝很不错用着很顺手拍照什么的还不错就是不能配一付耳机吗?能有多少钱，还是支持国货，挺起</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_7.jpg" alt=""/>
+                            <span>w****2</span>
+                            <h6>2017-03-29 13:59</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>用了快一天，才来评价的，总体来说性价比高，值得购买。</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>1****7</span>
+                            <h6>2017-03-24 17:53</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>刚发布还内部价抢购的，结果没几天就降价了。太伤心了！</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>182****3035</span>
+                            <h6>2017-03-23 20:57</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>不错的手机</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_10.jpg" alt=""/>
+                            <span>183****9276</span>
+                            <h6>2017-03-22 21:17</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>充电速度有点慢</p></div>
+                    </li>
+                    <!--第 11-15个评价-->
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_11.jpg" alt=""/>
+                            <span>b****m</span>
+                            <h6>2017-03-17 09:10</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>下单前有点犹豫，下单收到后中兴手机确实很好。</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_12.jpg" alt=""/>
+                            <span>w****5</span>
+                            <h6>2017-03-11 11:24</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>不错不错不错</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_13.jpg" alt=""/>
+                            <span>q****b</span>
+                            <h6>2017-03-09 18:49</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div>
+                            <p>收到手机后 试玩了一天 无论是外观 还是手感都很很棒 1499确实很值得 国产手机越来越给力了 支持国产 </p>
+                            <div>
+                                <img src="img-detail/evaluation_13_1.jpg" alt=""/>
+                                <img src="img-detail/evaluation_13_2.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>136****5409</span>
+                            <h6>2017-03-09 16:55</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div>
+                            <p>外观漂亮，运行流畅，功能强大。喜欢五个指纹的设置。五分。</p>
+                            <p>还赠了五个小充电宝。<i>2017-03-09 16:55</i></p>
+                            <p>一个<i>2017-03-09 16:55</i></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>136****7490</span>
+                            <h6>2017-03-08 23:21</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>2017，中兴崛起。</p></div>
+                    </li>
+                    <!--第 16-20个评价-->
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>189****2208</span>
+                            <h6>2017-03-08 22:16</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>还是不错的。</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>189****2208</span>
+                            <h6>2017-03-08 22:15
+                            </h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>还是不错的。</p></div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>153****5389</span>
+                            <h6>2017-03-08 13:28
+                            </h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div>
+                            <p>手机已经收到，外观简单精致，很喜欢，可以替换掉上一步zte了</p>
+                             <div>
+                                 <img src="img-detail/evaluation_18_1.jpg" alt=""/>
+                             </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_19.jpg" alt=""/>
+                            <span>178****7476</span>
+                            <h6>178****7476</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div>
+                            <p>第一次买中兴手机，下单前还有点犹豫，看性价比高才下单。没失望~</p>
+                            <div>
+                                <img src="img-detail/evaluation_19_1.jpg" alt=""/>
+                                <img src="img-detail/evaluation_19_2.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img-detail/evaluation_1.jpg" alt=""/>
+                            <span>180****0589</span>
+                            <h6>2017-03-08 13:19</h6>
+                            <p><span>★★★★★</span><b>好评</b></p>
+                        </div>
+                        <div><p>顺丰超快，第一眼就看上了，上图吧，值得拥有</p>
+                            <div>
+                                <img src="img-detail/evaluation_20_1.jpg" alt=""/>
+                                <img src="img-detail/evaluation_20_2.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="next_index">
+                    <a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">&gt;&gt;</a>
+                </div>
+                <!-- 好评-->
+                <ul></ul>
+                <!-- 中评-->
+                <ul></ul>
+                <!-- 差评-->
+                <ul></ul>
+                <!-- 晒图-->
+                <ul></ul>
+            </div>
+            <div class="goods_service">
+                <span><input type="text" placeholder="请输入你的问题"/><input type="submit" value="提交问题"/></span>
+                <div>共0个问题</div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部-->
+    <footer id="footer">
+        <div>
+            <ul>
+                <li>7天退货保障</li>
+                <li>15天换货承诺</li>
+                <li>150元起全场免运费</li>
+                <li>全国售后服务点</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>关注我们</li>
+                <li><a href="#">中兴社区</a></li>
+                <li><a href="#">官方微信</a></li>
+                <li><a href="#">新浪微博</a></li>
+            </ul>
+            <ul>
+                <li>帮助中心</li>
+                <li><a href="#">支付方式</a></li>
+                <li><a href="#">购物指南</a></li>
+                <li><a href="#">配送指南</a></li>
+            </ul>
+            <ul>
+                <li>售后服务</li>
+                <li><a href="#">退换货流程</a></li>
+                <li><a href="#">售后网点</a></li>
+                <li><a href="#">退换货政策</a></li>
+                <li><a href="#">保修政策</a></li>
+            </ul>
+            <ul>
+                <li>关于商城</li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">商城简介</a></li>
+                <li><a href="#">礼品团购</a></li>
+            </ul>
+            <ul>
+                <li>400-880-9999</li>
+                <li>周一到周日8::30-20:30(全年无休)</li>
+                <li><a href="#">在线客服</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>
+                <a href="#">中兴社区</a>
+                <i></i>
+                <a href="#">中兴通讯</a>
+                <i></i>
+                <a href="#">汇天地</a>
+                <i></i>
+                <a href="#">中兴云服务</a>
+                <i></i>
+                <a href="#">中兴手机</a>
+            </p>
+            <h5>服务协议 | ©2014 - 2017 深圳市中兴智谷科技有限公司版权所有，并保留所有权利</h5>
+            <h5>增值电信业务经营许可证：粤B2-20160352 | ICP备案证书号 : 粤ICP备16018970号</h5>
+        </div>
+    </footer>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="detail/detail_js/detail_time.js"></script>
+</body>
+</html>
